@@ -41,6 +41,17 @@ header nav ul li #ig{
 header nav ul li #ig:hover{
     color:black;
 }
+header nav ul li #github{
+    color:black;
+    background-color:white;
+    text-decoration:none;
+    font-size:25px;
+    padding:10px 10px;
+}
+header nav ul li #github:hover{
+    color:white;
+    background-color:black;
+}
 h1{
     color:darkblue;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,4 +85,18 @@ li{
 }
 label{
     font-family:Arial, Helvetica, sans-serif;
+}
+#links{
+    text-align:center;
+}
+.enlaces{
+    text-align:center;
+}
+.enlaces a{
+    color:darkred;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:none;
+}
+.enlaces a:hover{
+    color:black;
 }
