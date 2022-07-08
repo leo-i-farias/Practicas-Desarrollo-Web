@@ -1,0 +1,17 @@
+form{
+    max-width: 60%;
+    margin: 0px auto;
+}
+input{
+    margin-bottom: 20px;
+}
+label, input{
+    width: 100%;
+    border-radius: 30px;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: 10%;
+}
+input:focus{
+    border-left: 10px red solid;
+}

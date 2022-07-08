@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <form action="">
+        <label for="nombre_completo">Nombre Completo</label>
+        <input type="text" name="nombre_completo" id="nombre_completo">
+
+        <label for="nombre_usuario">Nombre de Usuario</label>
+        <input type="text" name="nombre_usuario" id="nombre_usuario">
+
+        <label for="email">Correo electronico</label>
+        <input type="email" name="email" id="email" placeholder="example@page.com">
+
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password">
+
+        <label for="re_password">Repetir Contraseña</label>
+        <input type="password" name="re_password" id="re_password">
+
+        <label for="nacimiento">Fecha de Nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento">
+
+        <label for="foto_perfil">Selecciona una foto de perfil</label>
+        <input type="file" name="foto_perfil" id="foto_perfil">
+
+        <label for="pais">Selecciona tu pais</label>
+        <select name="pais" id="pais" required>
+            <option value="" selected>Seleccione...</option>
+            <option disabled>------------------</option>
+            <option value="AR">Argentina</option>
+            <option value="BR">Brasil</option>
+            <option value="PY">Paraguay</option>
+            <option value="UY">Uruguay</option>
+        
+        <br>
+        <br>
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="telefono" id="telefono">
+
+        <label for="genero">Genero</label>
+        <br>
+        <span>Femenino</span>
+        <input type="radio" name="genero" id="genero" value="femenino">
+
+        <span>Masculino</span>
+        <input type="radio" name="genero" id="genero" value="masculino">
+
+        <br>
+
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="newsletter">Suscribirme al newsletter</label>
+
+        <br>
+
+        <input type="checkbox" name="terminos" id="terminos" required>
+        <label for="terminos">Acepto los <a href="">terminos y condiciones</a></label>
+
+        <br>
+
+        <button type="submit">ENVIAR</button>
+    </form>
+
+</body>
+</html>
