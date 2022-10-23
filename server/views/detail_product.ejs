@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%-include('./partials/head', {"titulo": "Producto", "css": "detail_product"})%>
+<body>    
+    <%-include('./partials/header')%>
+    <main>
+        <div class="container">
+            <div class="product-container">
+                <div class="imagenes-secundarias">
+                    <a href="#"><img src="../../imgs/camiseta-bebe-plana.png" width="150px" height="150px" alt="producto" class="imagen-secundaria"></a>
+                    <a href="#"><img src="../../imgs/camiseta-bebe-plana.png" width="150px" height="150px" alt="producto" class="imagen-secundaria"></a>
+                </div>
+                <div class="imagen-principal">
+                    <img src="../../imgs/camiseta-bebe-plana.png" alt="producto" class="imagen-producto">
+                </div>
+                <div class="descripcion-producto">
+                    <h2>DESCRIPCIÓN:</h2>
+                    <p> <%- producto.descripcion %>
+                    </p>
+                </div>
+            </div>
+            <div class="info-container">
+                <div class="producto-titulo">
+                    <h1><%- producto.nombre %></h1>
+                </div>
+                <div class="favorito">
+                    <button>FAV</button>
+                </div>
+                <div class="precio-producto">
+                    <h1><strong>$<%- producto.precio %></strong></h1>
+                </div>
+                <div class="botones">
+                    <button type="submit" id="cart">AÑADIR AL CARRITO</button>
+                    <button type="submit" id="buy">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <%-include('./partials/footer')%>
+</body>
+</html>

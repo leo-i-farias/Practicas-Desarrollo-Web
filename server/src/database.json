@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remera manga corta",
+        "descripcion": "Remera de algodón manga corta con diversos motivos",
+        "precio": 500
+    },
+    {
+        "id": 2,
+        "nombre": "Remera manga larga",
+        "descripcion": "Remera de algodón manga larga con diversos motivos",
+        "precio": 600
+    },
+    {
+        "id": 3,
+        "nombre": "Pantalón largo",
+        "descripcion": "Pantalón de algodón largo con diversos motivos",
+        "precio": 800
+    },
+    {
+        "id": 4,
+        "nombre": "Short de baño",
+        "descripcion": "Short para baño con malla adentro y bolsillos",
+        "precio": 500
+    },
+    {
+        "id": 5,
+        "nombre": "Set pijama largo",
+        "descripcion": "Set de remera manga larga y pantalón para pijama",
+        "precio": 1100
+    }
+]

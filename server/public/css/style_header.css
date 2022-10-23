@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Square+Peg&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: var(--beige);
+}
+
+:root{
+    --beige: #F7F4E3;
+    --amarillo: #FEE4A6;
+    --rojo: #f9c4aa;
+    --verde: #D2E1C8;
+    --textos: 'Fira Sans', sans-serif;
+    --titulos: 'Bebas Neue', cursive;
+    --otros-textos: 'Square Peg', cursive;
+}
+
+header{
+    background-color: var(--amarillo);
+    width: 100%;
+    height: 60%;
+}
+.header-container{
+    width: 100%;
+    height: 60%;
+    background-color: var(--amarillo);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu-search{
+    display: flex;
+    background-color: var(--amarillo);
+}
+#menu{
+    background-color: var(--amarillo);
+    margin: 10px;
+}
+.item{
+    background-color: var(--amarillo);
+    margin: 10px;
+}
+.header-logo{
+    background-color: var(--amarillo);
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 50px;
+}
+.logo_imagen{
+    background-color: var(--amarillo);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.header-logo a{
+    background-color: var(--amarillo);
+}
+.header-menu-search input{
+    display: none;
+    border-radius: 40px;
+    margin: 10px;
+    position: relative;
+    width: 350px;
+    border: 2px;
+    font-family: var(--otros-textos);
+    font-size: 36px;
+}
+.header-menu-search i{
+    font-size: 40px;
+    background-color: transparent;
+    position: relative;
+    left: 5px;
+}
+.header-buttons{
+    display: flex;
+    background-color: var(--amarillo);
+    width: 120px;
+    justify-content: space-around;
+}
+.header-buttons i{
+    font-size: 40px;
+    background-color: transparent;
+}
+
+nav{
+    display: none;
+}
+@media (min-width: 1024px){
+    .header-container{
+        height: 100px;
+    }
+    .header-logo img{
+        height: 80px;
+        width: 120px;
+        position: relative;
+        right: 80px;
+    }    
+    .header-logo a{
+        height: 80px;
+        width: 120px;
+        position: relative;
+        right: 80px;
+        background-color: var(--amarillo);
+    }
+    .header-menu-search input{
+        display: block;
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+    }
+    nav{
+        display: flex;
+        height: 40px;
+    }
+    .categoria{
+        list-style: none;
+        display: inline;
+        margin: 20px;
+        background-color: var(--verde);
+    }
+    .categoria a{
+        text-decoration: none;
+        color: black;
+        background-color: var(--verde);
+        font-family: var(--textos);
+    }
+    .categorias{
+        background-color: var(--verde);
+        padding: 8px;
+        width: 100%;
+    }}
